@@ -10,21 +10,21 @@
   "private": true,
   "version": "3.2.0",
   "dependencies": {
-    "attila": "github:zutrinken/attila#1.13.0",
-    "bleak": "github:zutrinken/bleak#1.4.0",
-    "casper": "github:tryghost/Casper#3.0.4",
+    "attila": "git+https://github.com/zutrinken/attila#1.13.0",
+    "bleak": "git+https://github.com/zutrinken/bleak#1.4.0",
+    "casper": "git+https://github.com/tryghost/Casper#3.0.4",
     "ghost": "^3.2.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.0.2",
     "ghost-webdav-storage-adapter": "^0.3.5",
-    "liebling": "github:snathjr/liebling",
-    "london": "github:tryghost/london#1.0.0",
-    "lyra": "github:tryghost/lyra",
-    "massively": "github:tryghost/massively#1.0.2",
+    "liebling": "git+https://github.com/snathjr/liebling",
+    "london": "git+https://github.com/tryghost/london#1.0.0",
+    "lyra": "git+https://github.com/tryghost/lyra",
+    "massively": "git+https://github.com/tryghost/massively#1.0.2",
     "mysql": "^2.17.1",
-    "pico": "github:tryghost/pico",
-    "the-shell": "github:mityalebedev/The-Shell#v2.0.0",
-    "vapor": "github:sethlilly/Vapor#v1.6.0"
+    "pico": "git+https://github.com/tryghost/pico",
+    "the-shell": "git+https://github.com/mityalebedev/The-Shell#v2.0.0",
+    "vapor": "git+https://github.com/sethlilly/Vapor#v1.6.0"
   },
   "engines": {
     "node": "10.X"
