@@ -86,10 +86,8 @@ function createConfig() {
     fileStorage: fileStorage,
     storage: storage,
     database: {
-      client: 'sqlite3',
-      connection: {
-        "filename": "content/data/ghost-local.db"
-      },
+      client: 'mysql',
+      connection: getMysqlConfig(envValues.mysqlDatabaseUrl),
       pool: { min: 0, max: 5 },
       debug: false
     },
